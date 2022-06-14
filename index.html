@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+</head>
 <body>
 
 <iframe
     src="https://player.twitch.tv/?channel=yueyuhoshizora&parent=yueyuhoshizora.github.io&autoplay=true"
-    height="100%"
-    width="100%"
     allowfullscreen>
 </iframe>
 
